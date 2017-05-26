@@ -1,9 +1,9 @@
 {
   "name": "doctor_lookup",
   "description": "",
-  "main": "gulpfile.js",
-  "license": "ISC",
-  "homepage": "https://github.com/jessehoareevans/template",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",

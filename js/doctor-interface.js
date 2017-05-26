@@ -1,17 +1,17 @@
 var Doctor = require('./../js/doctor.js').doctorModule;
 
-var docInfo = function(doctors) {
+var doctorInfo = function(doctors) {
 
   doctors.forEach(function(doctor){
-    $('.output').append("<li>The title of the missing bike is " + bike.title + "the color is " + bike.color  + " the year of the bike is" + bike.year + ".</li>");
-});
+    $('.output').append("<li>This is the name of a doctor that can help " + doctor.first + " " + doctor.last + " " + doctor.title  +  ", now quick bit of information about " + doctor.bio +  ".</li>");
+  });
 };
 
 $(document).ready(function(){
   var currentDoctorObject = new Doctor();
   $ ("#submit").click(function(){
-    var symptom = $('#symptom').val();
-    $('#symptom').val("");
-    currentDoctorObject.getDoctor();
+    var medicalIssue = $('#medicalIssue').val();
+    $('#medicalIssue').val("");
+    currentDoctorObject.getDoctor(medicalIssue, doctorInfo);
   });
 });
