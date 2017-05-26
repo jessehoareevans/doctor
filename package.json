@@ -1,7 +1,6 @@
 {
-  "name": "Project_name",
+  "name": "doctor_lookup",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,5 +24,14 @@
   },
   "dependencies": {
     "gulp-uglify": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessehoareevans/template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jessehoareevans/template/issues"
+  },
+  "homepage": "https://github.com/jessehoareevans/template#readme",
+  "description": ""
 }
