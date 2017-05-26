@@ -1,5 +1,6 @@
 $red : #CD8A7C;
 $blue : #7CBCCD;
+$yellow : #F3E85F;
 
 .box {
   background: $red;
@@ -16,9 +17,11 @@ $blue : #7CBCCD;
 .output {
   background: $blue;
   padding: 40px 80px;
+  border: 1px solid black;
   }
 
 .jumbotron {
     text-align: center;
     text-decoration: underline;
+    background: $yellow;
   }
