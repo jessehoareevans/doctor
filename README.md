@@ -1,37 +1,26 @@
-# _{Application Name}_
+# _Find a Doctor_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This site helps people with ailments find a doctor in the greater Portland area, 5/26/17_
 
-#### By _**{List of contributors}**_
+#### By _**Jesse Hoare Evans**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This site is designed to help people find a doctor. The user puts in their ailment (e.g. sore throat) and the application will suggest up to 20 doctors that can help them in the region._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
-
-## Support and contact details
-
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+* _You will need to generate you own api key by visiting https://developer.betterdoctor.com/ and following the instructions to make your own api key._
+* _Clone this repository https://github.com/jessehoareevans/doctor.git and navigate to it._
+* _Create a .env file at the top level of the directory and type "exports.apiKey = and place you api key in quotation marks after the = sign.._
+* _In the terminal run npm install and bower install. Then run gulp build amd gulp serve_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_HTML, CSS, Bootstrap, JavaScript, jQuery, nodeJS, gulp, Better Doctors API_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2017 **_Jesse Hoare Evans_**
